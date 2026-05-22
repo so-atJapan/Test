@@ -1,0 +1,25 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Nonogram.Main",
+            "cwd": "${workspaceFolder}",
+            "vmArgs": "--module-path \"lib\" --add-modules javafx.controls,javafx.fxml",
+            "env": {
+                "PATH": "${workspaceFolder}/bin/dll;${env:PATH}"
+            }
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}
