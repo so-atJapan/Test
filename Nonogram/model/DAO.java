@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class DAO {
     
-    private final String DB_PATH = "jdbc:sqlite:src\\Nonogram\\model\\Nonogram.DB";
+    private final String DB_PATH = "jdbc:sqlite:Nonogram\\model\\Nonogram.DB";
 
     private final String SELECT_ALL_PUZZLES =
         "SELECT" +
