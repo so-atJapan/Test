@@ -12,7 +12,7 @@
             "cwd": "${workspaceFolder}",
             "vmArgs": "--module-path \"lib\" --add-modules javafx.controls,javafx.fxml",
             "env": {
-                "PATH": "${workspaceFolder}/bin/dll;${env:PATH}"
+                "PATH": "${workspaceFolder}/dll;${env:PATH}"
             }
         },
         {
