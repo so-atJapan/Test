@@ -1,4 +1,1 @@
-# Test
-test repository for my first GitHub.
-i'm learning about the branch.
-test2
+環境構築からの解放
